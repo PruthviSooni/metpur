@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+  	<meta charset="utf-8">
+    <meta name="description" content="Responsive Bootstrap Landing Page Template">
+    <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Grayrids">
+        <title>Register</title>
+    </head>    
+    <body align="center">
+	
+        <div id="main">        	
+        	<h1>Sign up!</h1>        	
+				<form action="#">
+					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+						<input class="mdl-textfield__input" type="text" id="sample3">
+							<label class="mdl-textfield__label" for="sample3">First Name...</label>
+					</div>
+				</form>
+				
+				<form action="#">
+					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+						<input class="mdl-textfield__input" type="text" id="sample3">
+							<label class="mdl-textfield__label" for="sample3">Last Name...</label>
+					</div>
+				</form>
+				
+				<form action="#">
+					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+						<input class="mdl-textfield__input" type="text" id="sample3">
+							<label class="mdl-textfield__label" for="sample3">Email...</label>
+					</div>
+				</form>
+				
+				<form action="#">
+					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+						<input class="mdl-textfield__input" type="text" id="sample3">
+							<label class="mdl-textfield__label" for="sample3">Confirm Email...</label>
+					</div>
+				</form>
+				
+				<form action="#">
+					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+						<input type="password" id="txtPassword" class="mdl-textfield__input" type="text" id="sample3">
+							<label class="mdl-textfield__label" for="sample3">Password...</label>
+					</div>
+				</form>
+				
+				<form action="#">
+					<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+						<input type="password" id="txtConfirmPassword" class="mdl-textfield__input" type="text" id="sample3">
+							<label class="mdl-textfield__label" for="sample3">Confirm Password...</label>
+					</div>
+				</form>
+				
+				<script type="text/javascript">
+					function Validate() {
+						var password = document.getElementById("txtPassword").value;
+						var confirmPassword = document.getElementById("txtConfirmPassword").value;
+						if (password != confirmPassword) {
+						alert("Passwords do not match.");
+					return false;
+					}
+					return true;
+				}
+				</script>
+				
+				<!-- Accent-colored raised button with ripple -->
+				<table align="center">
+					<tr><td><form method="post" action="mailto:akils509@gmail.com" >
+					<input class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" value="Submit" /> 
+				</form>&nbsp;</td></tr>
+				<tr><td>
+				<a href="index.html">
+				<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+						Back To Home..
+				</button></a>
+				</td></tr>
+				</table>
+        </div>        
+      
+</html>
